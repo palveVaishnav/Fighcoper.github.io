@@ -92,3 +92,52 @@ body{
 .social div{
     margin-bottom: 40px;
 }
+
+/* Styles for mobile screens */
+@media only screen and (max-width: 500px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        align-content: last baseline;
+    }
+
+    .index {
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 0 330px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 690px 0 0 0;
+    } h1,p {
+        color: white;
+    } button {
+        background-color: #001;
+        border-color: orange;
+        border-radius: 9px 0;
+    }
+
+    .image {
+        margin: 20px 0 0px 100px;
+        width: 100%;
+    }
+
+    .social {
+        margin: -40px 0 0 0;
+        flex-direction: row;
+    }
+
+    .social div {
+        margin: 10px 0;
+    }
+
+} 
